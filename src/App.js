@@ -1,12 +1,14 @@
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Home from './components/Home';
-import YourDecks from './components/YourDecks';
-import CreateDeck from './components/CreateDeck';
-import EditDeck from './components/EditDeck';
-import NotFound from './components/NotFound';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Home from './components/Home/Home';
+import YourDecks from './components/YourDecks/YourDecks';
+import CreateDeck from './components/CreateDeck/CreateDeck';
+import EditDeck from './components/EditDeck/EditDeck';
+import NotFound from './components/NotFound/NotFound';
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import './App.css';
 
 function App() {
   return (

@@ -1,0 +1,25 @@
+.decks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: violet;
+    height: 100%;
+    width: 100vw;
+}
+
+.decks-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8%;
+    background-color: aquamarine;
+    width: 100vw;
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+.decks-container {
+    height: 92%;
+    width: 100vw;
+    background-color: sandybrown;
+}
